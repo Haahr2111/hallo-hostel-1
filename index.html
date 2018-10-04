@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="description"content="">
+    <meta name="description" content="">
     <!--HUSK AT UDFYLDE BESKRIVELSE TIL SEO -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Hallo Social</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="jquery.parallaxify.js"></script>
 </head>
 
-<body>
-    <script src=""></script>
+<body class="parallax">
+
+    <div data-parallaxify-background-range="100">
+        <img src="images/baggrund.png" alt="Baggrund" id="baggrund">
+    </div>
+
+    <script src="javascript.js">
+        $('.parallax').parallaxify();
+    </script>
 </body>
 </html>
