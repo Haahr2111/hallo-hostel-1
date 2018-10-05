@@ -54,7 +54,6 @@ header i {
     margin-top: 20px;
     margin-left: 20%;
     margin-right: 20%;
-    font-size: 15px;
     color: #1AA3AD;
 }
 
@@ -62,7 +61,55 @@ header i {
     width: 100%;
 }
 
-#logo p {
+#logo h1 {
     margin-top: 3px;
-    margin-left: 8%;
+    margin-left: 6%;
+    font-size: 15px;
+}
+
+/* Events */
+
+.event {
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 2px solid #1AA3AD;
+    padding: 2px;
+    position: relative;
+}
+
+.event img {
+    width: 100%;
+}
+
+.event p {
+    font-size: 12px;
+    color: #707070;
+}
+
+.event h2 {
+    font-size: 20px;
+    color: #1AA3AD;
+}
+
+.event i {
+    float: right;
+}
+
+.dato {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background-color: #1AA3AD;
+    font-family: 'Raleway', sans-serif;
+    color: #F9BB12;
+    width: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.titel {
+    width: 70%;
 }
