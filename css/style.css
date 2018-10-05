@@ -1,0 +1,59 @@
+/* Global */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p, a {
+  font-family: 'Cabin', sans-serif;   
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Header */
+
+header {
+    height: 60px;
+    background-color: #1AA3AD;
+}
+
+header p, a, i {
+    color: #F9BB12;
+    font-size: 20px;
+    float: left;
+    padding-top: 15px;
+}
+
+header p {
+    margin-left: 2px;
+}
+
+header i {
+    margin-left: 10px;
+}
+
+.signin {
+    float: right;
+    margin-right: 10px;
+}
+
+/* Logo */
+
+#logo {
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 15px;
+}
+
+#logo img {
+    width: 100%;
+}
+
+#logo p {
+    margin-top: 3px;
+    margin-left: 8%;
+}
