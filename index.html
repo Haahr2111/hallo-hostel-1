@@ -17,26 +17,69 @@
     <header>
         <i class="material-icons">arrow_back</i>
         <p>To our website</p>
-        <a href="" class="signin">Sign in</a>
+        <!-- Login formular inspireret af https://codepen.io/monkeytempal/pen/VvKLMe -->
+        <div>
+            <a id="modal_trigger" href="#modal" class="login">Login</a>
+            <div id="modal" class="popupContainer">
+                <section class="popupHeader">
+                    <span class="header_title">Login</span>
+                    <span class="modal_close"><i class="fa fa-times"></i></span>
+                </section>
+            </div>
+        </div>
     </header>
     <div id="logo">
         <img src="images/hallologo.png" alt="Hallo Social logo">
         <h1>- It all starts with hallo</h1>
     </div>
-    <section class="event">
-        <img src="images/cykel.jpg" alt="Cykler">
-        <div class="dato">
-            <strong>3</strong> oct
-        </div>
-        <div class="ikon">
-            <i class="material-icons">group<p>8</p></i>
-            <i class="material-icons">chat<p>5</p></i>
-        </div>
-        <div class="titel">
-            <h2>Bike ride around the city</h2>
-            <p>- Tag along and experience Aarhus by bike</p>
-        </div>
-    </section>
+    <a href="bike.html">
+        <section class="event">
+            <img src="images/cykel.jpg" alt="Bicycle">
+            <div class="dato">
+                <strong>9</strong> oct
+            </div>
+            <div class="ikon">
+                <i class="material-icons">group<p>0</p></i>
+                <i class="material-icons">chat<p>2</p></i>
+            </div>
+            <div class="titel">
+                <h2>Bike ride around the city</h2>
+                <p>- Tag along and experience Aarhus by bike</p>
+            </div>
+        </section>
+    </a>
+    <a href="aros.html">
+        <section class="event">
+            <img src="images/aros.jpg" alt="Aros rainbow">
+            <div class="dato">
+                <strong>3</strong> oct
+            </div>
+            <div class="ikon">
+                <i class="material-icons">group<p>5</p></i>
+                <i class="material-icons">chat<p>8</p></i>
+            </div>
+            <div class="titel">
+                <h2>Visit ARoS museum</h2>
+                <p>- Join our trip to ARoS</p>
+            </div>
+        </section>
+    </a>
+    <a href="movienight.html">
+        <section class="event clear">
+            <img src="images/film.jpg" alt="Movie night">
+            <div class="dato">
+                <strong>12</strong> oct
+            </div>
+            <div class="ikon">
+                <i class="material-icons">group<p>15</p></i>
+                <i class="material-icons">chat<p>18</p></i>
+            </div>
+            <div class="titel">
+                <h2>Movie night in the café</h2>
+                <p>- Experience Danish 'hygge' right here at our café</p>
+            </div>
+        </section>
+    </a>
     <script src="javascript.js"></script>
 </body>
 

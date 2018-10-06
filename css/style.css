@@ -25,7 +25,6 @@ header {
     height: 60px;
     background-color: #1AA3AD;
 }
-
 header p,
 a,
 i {
@@ -43,9 +42,15 @@ header i {
     margin-left: 10px;
 }
 
-.signin {
+/* Login formular */
+
+.login {
     float: right;
     margin-right: 10px;
+}
+
+.popupContainer {
+    display: none;
 }
 
 /* Logo */
@@ -68,6 +73,10 @@ header i {
 }
 
 /* Events */
+
+a {
+    text-decoration: none;
+}
 
 .event {
     margin-top: 20px;
@@ -92,8 +101,10 @@ header i {
     color: #1AA3AD;
 }
 
-.event i {
+.ikon {
     float: right;
+    text-align: center;
+    margin-top: -18px;
 }
 
 .dato {
@@ -112,4 +123,8 @@ header i {
 
 .titel {
     width: 70%;
+}
+
+.clear {
+    margin-bottom: 20px;
 }
