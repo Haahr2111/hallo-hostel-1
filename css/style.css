@@ -51,6 +51,7 @@ button {
     border-radius: 30px;
 }
 .back-button {
+    display: block;
     position: fixed;
     top: 0;
     left: 0;
