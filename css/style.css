@@ -20,7 +20,19 @@ button,
 label {
     font-family: 'Raleway', sans-serif;
 }
+.content, h1 {
+    color:#41B0B9;
+    padding: 5%;
+    font-size: 35px;
+}
+.content, p {
+    color:#9A9B9B;
+    font-size: 15px;
+}
+.content {
+    position: relative;
 
+}
 button {
     border-radius: 30px;
 }
@@ -30,6 +42,14 @@ button {
 header {
     height: 60px;
     background-color: #1AA3AD;
+}
+.eventside {
+    height: auto;
+    background-color: none;
+        border-bottom-style: solid;
+    border-bottom-width: thick;
+    border-bottom-color:#F9BB12;
+
 }
 
 header p,
@@ -116,8 +136,20 @@ button:hover {
     opacity: 0.8;
 }
 
+.back-button {
+    position: absolute;
+    top: 0;
+}
+
 .containerlogin {
     padding: 16px;
+}
+
+.join {
+position: relative;
+    left:25%;
+    width: 50%;
+    font-size: 20px;
 }
 
 span.psw {
@@ -233,6 +265,11 @@ a {
 
 .event i {
     color: #1AA3AD;
+}
+.eventpic {
+    width: 100%;
+    z-index: -1;
+    
 }
 
 .ikon {
