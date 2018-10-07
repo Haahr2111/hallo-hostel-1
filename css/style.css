@@ -50,6 +50,10 @@ label {
 button {
     border-radius: 30px;
 }
+.back-button {
+    position: fixed;
+    top: 0;
+}
 
 /* Header */
 
@@ -150,10 +154,7 @@ button:hover {
     opacity: 0.8;
 }
 
-.back-button {
-    position: absolute;
-    top: 0;
-}
+
 
 .containerlogin {
     padding: 16px;
