@@ -33,6 +33,17 @@ label {
     position: relative;
 
 }
+
+.time-place {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+
+.text {
+    padding-top: 10%;
+}
 button {
     border-radius: 30px;
 }
