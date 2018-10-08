@@ -61,10 +61,13 @@ button {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 .comment {
     background-color: #1AA3AD;
     text-align: center;
+    margin-top: 5%;
+    padding: 10%;
 }
 
 .comment h2 {
@@ -86,6 +89,7 @@ button {
     border-bottom-style: solid;
     border-bottom-width: thick;
     border-bottom-color: #F9BB12;
+    background-color: #1AA3AD;
 
 }
 
@@ -179,6 +183,12 @@ button:hover {
 .join {
     position: relative;
     left: 25%;
+    width: 50%;
+    font-size: 20px;
+    margin-top:10%
+}
+
+.submit {
     width: 50%;
     font-size: 20px;
 }
