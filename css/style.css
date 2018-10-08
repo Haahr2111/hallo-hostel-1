@@ -404,12 +404,11 @@ a {
         margin-right: 5px;
     }
     
-<<<<<<< HEAD
     body {
         background-image: url(images/telefon-baggrund.png);
         background-size: cover;
     }
-=======
+    
     /* Justeringer til logo */
     #logo h1 {
         font-size: 20px;
@@ -422,11 +421,18 @@ a {
         margin-left: 20%;
         margin-right: 20%;
     }
+    
+    /* Event feed rettelser */
+    .event {
+        width: 60%;
+        background-color: white;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 }
 
 @media (min-width:1020px) {
     /* Sider til events */
->>>>>>> a38c3b4963b41ac975773629da56c3b78515c036
     .eventside {
         text-align: center;
         width: 50%;
@@ -455,6 +461,7 @@ a {
         padding: 1%;
         margin-top: 0;
     }
+    
     input[type=text],
     input[type=password] {
         width: 50%;
@@ -466,7 +473,14 @@ a {
     
     .back-button {
         left: 25%;
-    } 
+    }
+    
+    /* Logo rettelser */
+    #logo {
+        width: 30%;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
 }
 
 @media (min-width:1720px) {
