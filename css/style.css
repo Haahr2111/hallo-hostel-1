@@ -34,6 +34,7 @@ label {
 
 .content {
     position: relative;
+    background-color: white;
 
 }
 
@@ -395,6 +396,10 @@ a {
 
 @media (min-width:1020px) {
     
+    body {
+        background-image: url(images/telefon-baggrund.png);
+        background-size: cover;
+    }
     .eventside {
         text-align: center;
         width: 50%;
@@ -404,6 +409,7 @@ a {
     .content {
         margin-left: 25%;
         width: 50%;
+        padding-bottom: 5%;
     }
     
     .text {
@@ -420,6 +426,11 @@ a {
         width: 50%;
         margin-left: 25%;
         padding: 1%;
+        margin-top: 0;
+    }
+    input[type=text],
+    input[type=password] {
+        width: 50%;
     }
     
     .submit {
