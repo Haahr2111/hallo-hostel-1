@@ -56,6 +56,14 @@ button {
     top: 0;
     left: 0;
 }
+.comment {
+    background-color: #1AA3AD;
+    text-align: center;
+}
+
+.comment h2 {
+    color: #F9BB12;
+}
 
 /* Header */
 
