@@ -404,19 +404,13 @@ a {
         margin-right: 5px;
     }
     
-<<<<<<< HEAD
-=======
 
->>>>>>> 91d1bdc4f8d6e8810ea20676b3f2e2aacb810320
     body {
         background-image: url(images/telefon-baggrund.png);
         background-size: cover;
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> 91d1bdc4f8d6e8810ea20676b3f2e2aacb810320
+
     /* Justeringer til logo */
     #logo h1 {
         font-size: 20px;
@@ -441,10 +435,7 @@ a {
 
 @media (min-width:1020px) {
     /* Sider til events */
-<<<<<<< HEAD
-=======
 
->>>>>>> 91d1bdc4f8d6e8810ea20676b3f2e2aacb810320
     .eventside {
         text-align: center;
         width: 50%;
