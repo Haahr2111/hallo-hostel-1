@@ -129,7 +129,6 @@ header i {
     font-size: 20px;
     width: 50%;
     margin-left: 25%;
-    text-decoration: underline;
 }
 
 .containerlogin label {
@@ -138,10 +137,10 @@ header i {
 
 .containerlogin h2 {
     color: #F9BB12;
-    text-decoration: underline;
     text-align: center;
     font-size: 40px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .containerlogin input {
