@@ -404,12 +404,12 @@ a {
         margin-right: 5px;
     }
     
-<<<<<<< HEAD
+
     body {
         background-image: url(images/telefon-baggrund.png);
         background-size: cover;
     }
-=======
+
     /* Justeringer til logo */
     #logo h1 {
         font-size: 20px;
@@ -426,7 +426,7 @@ a {
 
 @media (min-width:1020px) {
     /* Sider til events */
->>>>>>> a38c3b4963b41ac975773629da56c3b78515c036
+
     .eventside {
         text-align: center;
         width: 50%;
