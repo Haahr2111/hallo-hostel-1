@@ -344,3 +344,10 @@ a {
 .clear {
     margin-bottom: 20px;
 }
+
+@media (min-width:1020px) {
+    
+}
+@media (min-width:1720px) {
+    
+}
