@@ -392,7 +392,7 @@ a {
         margin-top: 35px;
         margin-right: 5px;
     }
-
+    
     body {
         background-image: url(images/telefon-baggrund.png);
         background-size: cover;
@@ -473,9 +473,9 @@ a {
     }
 
     .comment {
-        width: 50%;
+        width: 48%;
         margin-left: 25%;
-        padding: 1%;
+       padding: 1%;
         margin-top: 0;
     }
 
