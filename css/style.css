@@ -369,7 +369,7 @@ a {
 }
 
 .sortering {
-    background-color: #1AA3AD;
+    background-color: white;
     border-radius: 5px;
     text-align: center;
     width: 90%;
@@ -378,23 +378,47 @@ a {
     height: 30px;
     padding: 2px;
     font-size: 15px;
+    font-weight: bold;
 }
 
 .active {
     background-color: #F9BB12;
     color: #1AA3AD;
+    border: 1px solid #1AA3AD;
 }
 
 .inactive {
-    color: white;
+    color: #1AA3AD;
+    border: 1px solid #1AA3AD;
 }
 
 .top {
     margin-top: 66px;
 }
 
-@media (min-width:1020px) {
+@media (min-width: 500px) {
+    /* Login rettelser */
+    .close {
+        margin-top: 35px;
+        margin-right: 5px;
+    }
     
+    /* Justeringer til logo */
+    #logo h1 {
+        font-size: 20px;
+        margin-left: 10%;
+    }
+    
+    /* Justeringer til sortering */
+    #sort {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media (min-width:1020px) {
+    /* Sider til events */
     .eventside {
         text-align: center;
         width: 50%;
@@ -430,6 +454,7 @@ a {
         left: 25%;
     } 
 }
+
 @media (min-width:1720px) {
     
 }
