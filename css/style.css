@@ -34,6 +34,7 @@ label {
 
 .content {
     position: relative;
+    background-color: white;
 
 }
 
@@ -403,6 +404,12 @@ a {
         margin-right: 5px;
     }
     
+<<<<<<< HEAD
+    body {
+        background-image: url(images/telefon-baggrund.png);
+        background-size: cover;
+    }
+=======
     /* Justeringer til logo */
     #logo h1 {
         font-size: 20px;
@@ -419,6 +426,7 @@ a {
 
 @media (min-width:1020px) {
     /* Sider til events */
+>>>>>>> a38c3b4963b41ac975773629da56c3b78515c036
     .eventside {
         text-align: center;
         width: 50%;
@@ -428,6 +436,7 @@ a {
     .content {
         margin-left: 25%;
         width: 50%;
+        padding-bottom: 5%;
     }
     
     .text {
@@ -444,6 +453,11 @@ a {
         width: 50%;
         margin-left: 25%;
         padding: 1%;
+        margin-top: 0;
+    }
+    input[type=text],
+    input[type=password] {
+        width: 50%;
     }
     
     .submit {
