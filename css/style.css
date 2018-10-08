@@ -346,6 +346,39 @@ a {
 }
 
 @media (min-width:1020px) {
+    .eventside {
+        text-align: center;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .content {
+      margin-left: 25%;
+        width: 50%;
+       
+    }
+    .text {
+        padding-top:0px;
+    }
+    .join {
+    margin-top: 5%;
+        width: 25%;
+        margin-left: 14%
+    }
+    
+    .comment {
+        width: 50%;
+        margin-left: 25%;
+        padding: 1%;
+    }
+    .submit {
+        width: 25%;
+    }
+    
+    .back-button {
+        left: 25%;
+    }
+    
     
 }
 @media (min-width:1720px) {
