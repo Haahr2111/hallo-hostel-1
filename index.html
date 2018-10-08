@@ -23,7 +23,7 @@
         <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="login">Login<i class="fa fa-sign-in"></i></button>
         <div id="id01" class="modal">
             <form class="modal-content animate" action="/action_page.php">
-                <div class="imgcontainer">
+                <div>
                     <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
                 </div>
                 <div class="containerlogin">
@@ -49,13 +49,19 @@
         </div>
     </header>
 
-
     <div id="logo">
         <img src="images/hallologo.png" alt="Hallo Social logo">
         <h1>- It all starts with hallo</h1>
     </div>
+
+    <div id="sort">
+        <a href="index.html"><button type="button" class="active sortering">Newest</button></a>
+        <a href=""><button type="button" class="inactive sortering">Upcoming</button></a>
+        <a href=""><button type="button" class="inactive sortering">Popular</button></a>
+    </div>
+
     <a href="bike.html">
-        <section class="event">
+        <section class="event top">
             <img src="images/cykel.jpg" alt="Bicycle">
             <div class="dato">
                 <strong>9</strong> oct
@@ -105,8 +111,8 @@
         </section>
     </a>
 
-
     <script>
+        // script til login formular
         var modal = document.getElementById('id01');
 
         // Når man trykker udenfor formularen lukker den
