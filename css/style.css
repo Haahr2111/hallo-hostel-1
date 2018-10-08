@@ -73,7 +73,7 @@ button {
 
 /* Header */
 
-header {
+.header {
     height: 60px;
     background-color: #1AA3AD;
     position: fixed;
