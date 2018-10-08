@@ -356,6 +356,7 @@ a {
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 /* Sorteringsknapper */
 
 #sort {
@@ -392,3 +393,44 @@ a {
 .top {
     margin-top: 66px;
 }
+=======
+@media (min-width:1020px) {
+    .eventside {
+        text-align: center;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .content {
+      margin-left: 25%;
+        width: 50%;
+       
+    }
+    .text {
+        padding-top:0px;
+    }
+    .join {
+    margin-top: 5%;
+        width: 25%;
+        margin-left: 14%
+    }
+    
+    .comment {
+        width: 50%;
+        margin-left: 25%;
+        padding: 1%;
+    }
+    .submit {
+        width: 25%;
+    }
+    
+    .back-button {
+        left: 25%;
+    }
+    
+    
+}
+@media (min-width:1720px) {
+    
+}
+>>>>>>> 535e5ff464ea27036a43a76ae25687d50f008e4d
