@@ -81,7 +81,6 @@ time {
     display: none;
 }
 
-/* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
     border: none;
     cursor: pointer;
@@ -91,17 +90,16 @@ time {
     opacity: 0.80;
 }
 
-/* The popup form - hidden by default */
 .form-popup {
     display: none;
     position: fixed;
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    left: 15%;
+    right: 15%;
+    bottom: 15%;    
 }
 
-/* Add styles to the form container */
 .form-container {
-    max-width: 300px;
     padding: 10px;
     background-color: #30ABB5;
 }
@@ -111,19 +109,18 @@ time {
     margin-top: 10px;
     text-align: center;
     color: #F9BB12;
+    font-size: 40px;
 }
 
 .form-container label {
     color: #F9BB12
 }
 
-/* Full-width input fields */
 .form-container input[type=text] {
     width: 100%;
     border: 1px solid #F9BB12;
 }
 
-/* Set a style for the submit/login button */
 .form-container .btn {
     background-color: #F9BB12;
     color: white;
@@ -133,9 +130,20 @@ time {
     margin-bottom: 10px;
 }
 
-/* Add a red background color to the cancel button */
 .form-container .cancel {
     background-color: #F98D12;
+}
+
+.addphoto p{
+    color: #F9BB12;
+    float: right;
+    margin-right: 130px;
+    margin-top: 13px;
+}
+
+.addphoto {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* event-knap */
@@ -466,6 +474,23 @@ a {
 }
 
 @media (min-width: 500px) {
+    
+    .event-knap img {
+        width: 70px    ;
+    }
+    
+    .event-knap {
+        width: 100%;
+    }
+    
+    .form-popup img {
+        width: 40px;
+    }
+    
+    .form-popup p {
+        margin-top: 10px;
+        margin-right: 70%;
+    }
 
     .join {
         width: 40%;
@@ -531,6 +556,15 @@ a {
 }
 
 @media (min-width:1020px) {
+    
+    .form-popup {
+        width: 30%;
+        left: 69%;
+    }
+    
+    .form-popup p {
+        margin-right: 50%;
+    }
 
     .join {
         width: 30%;
@@ -666,6 +700,10 @@ a {
 }
 
 @media (min-width:1720px) {
+    
+    .form-popup p {
+        margin-right: 70%;
+    }
 
     .join {
         width: 20%;
