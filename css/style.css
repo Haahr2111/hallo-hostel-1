@@ -96,7 +96,8 @@ time {
     width: 70%;
     left: 15%;
     right: 15%;
-    bottom: 15%;    
+    bottom: 15%;
+    overflow: scroll;
 }
 
 .form-container {
