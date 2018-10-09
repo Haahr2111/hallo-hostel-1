@@ -255,12 +255,13 @@ span.psw {
 
 .event-knap {
     position: fixed;
-z-index: 1;
+    z-index: 1;
     right: 1%;
     width: 15%;
     bottom: 1%;
     opacity: 0.80;
 }
+
 .event-knap img {
     width: 100%
 }
@@ -399,11 +400,34 @@ a {
     margin-top: 66px;
 }
 
+.join {
+    width: 50%;
+    margin-left: 25%;
+    font-size: 18px;
+}
+
+.submit {
+    width: 50%;
+    font-size: 18px;
+}
+
 @media (min-width: 500px) {
-    
+
+    .join {
+        width: 40%;
+        margin-left: 30%;
+        font-size: 20px;
+    }
+
+    .submit {
+        width: 40%;
+        font-size: 20px;
+    }
+
     .event-knap {
         width: 5%;
     }
+
     /* Baggrund */
     .front {
         width: 100%;
@@ -412,7 +436,7 @@ a {
         background-color: white;
         z-index: -1;
     }
-    
+
     .back {
         width: 120%;
         height: 120%;
@@ -453,11 +477,20 @@ a {
 }
 
 @media (min-width:1020px) {
-    
+
+    .join {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    .submit {
+        width: 30%;
+    }
+
     .kaffe {
         margin-left: -20%;
     }
-    
+
     #main {
         margin-left: 20%;
         margin-right: 20%;
@@ -498,6 +531,7 @@ a {
         width: 50%;
         padding-bottom: 5%;
     }
+
     .time-place {
         margin-left: 4%
     }
@@ -515,7 +549,7 @@ a {
     .comment {
         width: 48%;
         margin-left: 25%;
-       padding: 1%;
+        padding: 1%;
         margin-top: 0;
     }
 
@@ -571,17 +605,27 @@ a {
         width: 30%;
         margin-left: 35%;
     }
-    
+
     .close {
         margin-right: 16.5%;
     }
 }
 
 @media (min-width:1720px) {
+
+    .join {
+        width: 20%;
+        margin-left: 40%;
+    }
+
+    .submit {
+        width: 20%;
+    }
+
     .close {
         margin-top: 45px;
     }
-    
+
     #logo {
         margin-left: 40%;
     }

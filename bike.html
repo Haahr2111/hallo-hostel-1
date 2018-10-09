@@ -44,7 +44,33 @@
             Alison and Michael :D
         </p>
 
-        <button class="join">Sign-in to join</button>
+        <button onclick="document.getElementById('id01').style.display='block'" class="join">Sign-in to join</button>
+        <div id="id01" class="modal">
+            <form class="modal-content animate" action="/action_page.php">
+                <div>
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                </div>
+                <div class="containerlogin">
+
+                    <h2>Login</h2>
+
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Choose a username" name="uname" required>
+
+                    <label for="room"><b>Room no.</b></label>
+                    <input type="text" placeholder="Type your room no." name="room" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+
+                    <p class="forgot">Forgot your password? Get a new one in the reception.</p>
+
+                    <button type="submit"><strong>Login</strong></button>
+
+                </div>
+
+            </form>
+        </div>
     </section>
     <section class="comment">
         <h2> Comment/Contact</h2>
