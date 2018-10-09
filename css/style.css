@@ -395,7 +395,7 @@ a {
     
     body {
         background-image: url(images/telefon-baggrund.png);
-        background-size: cover;
+        background-size: 100%;
     }
 
     /* Justeringer til logo */
