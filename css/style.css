@@ -421,11 +421,6 @@ a {
         margin-top: 35px;
         margin-right: 5px;
     }
-    /*
-    body {
-        background-image: url(images/telefon-baggrund.png);
-        background-size: 100%;
-    }*/
 
     /* Justeringer til logo */
     #logo h1 {
@@ -451,7 +446,7 @@ a {
 
 @media (min-width:1020px) {
     
-    .front {
+    .kaffe {
         margin-left: -20%;
     }
     
