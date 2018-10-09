@@ -253,11 +253,16 @@ span.psw {
 
 /* event-knap */
 
-.eventknap img{
+.event-knap {
     position: fixed;
 z-index: 1;
-    
-    
+    right: 1%;
+    width: 15%;
+    bottom: 1%;
+    opacity: 0.80;
+}
+.event-knap img {
+    width: 100%
 }
 
 /* Logo */
@@ -396,6 +401,9 @@ a {
 
 @media (min-width: 500px) {
     
+    .event-knap {
+        width: 5%;
+    }
     /* Baggrund */
     .front {
         width: 100%;
