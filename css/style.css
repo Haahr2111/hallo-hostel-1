@@ -251,6 +251,15 @@ span.psw {
     }
 }
 
+/* event-knap */
+
+.eventknap img{
+    position: fixed;
+z-index: 1;
+    
+    
+}
+
 /* Logo */
 
 #logo {
