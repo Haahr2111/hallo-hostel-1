@@ -62,7 +62,30 @@
         <a href="upcoming.html"><button type="button" class="inactive sortering">Upcoming</button></a>
         <a href="popular.html"><button type="button" class="active sortering">Popular</button></a>
     </div>
+    
+    <div class="event-knap">
+        <img src="images/event-icon.png" alt="tilføj event" class="open-button" onclick="openForm()">
+        <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h2>Add event</h2>
 
+                <label for="title"><b>Title</b></label>
+                <input type="text" placeholder="Title of event" name="title" required>
+                
+                <div class="addphoto">
+                    <img src="images/event-icon-to.png" alt="Add image">
+                    <p>Add event photo</p>
+                </div>
+                
+                <label for="describe"><b>Description</b></label>
+                <input type="text" placeholder="Describe your event" name="describe" required>
+
+                <button type="submit" class="btn">Add event</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+            </form>
+        </div>
+    </div>
+    
     <a href="movienight.html">
         <section class="event top">
             <img src="images/film.jpg" alt="Movie night">
