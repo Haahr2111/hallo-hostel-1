@@ -8,6 +8,16 @@ window.onclick = function (event) {
     }
 }
 
+// script til login formular
+var modal1 = document.getElementById('id02');
+
+// Når man trykker udenfor formularen lukker den
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal1.style.display = "none";
+    }
+}
+
 // Baggrund flytter sig med mus
 var windowWidth = $(window).width();
 
@@ -18,3 +28,4 @@ $('.front').mousemove(function (event) {
     $('.back').css('margin-left', moveX + 'px');
     $('.back').css('margin-top', moveY + 'px');
 });
+
