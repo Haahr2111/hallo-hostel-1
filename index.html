@@ -15,9 +15,9 @@
 </head>
 
 <body id="main">
-   <div class="front kaffe">
-       <div class="back"></div>
-   </div>
+    <div class="front kaffe">
+        <div class="back"></div>
+    </div>
     <header class="header">
         <a href="http://hallohostelaarhus.com/" target="_blank"><i class="material-icons">arrow_back</i>
             <p>Return to website</p>
@@ -62,11 +62,25 @@
         <a href="upcoming.html"><button type="button" class="inactive sortering">Upcoming</button></a>
         <a href="popular.html"><button type="button" class="inactive sortering">Popular</button></a>
     </div>
-<div class="event-knap"> 
-<a onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="login">
-   <img src="images/event-icon.png" alt="tilføj event">
-  </a>
-   </div>
+    
+    <div class="event-knap">
+        <img src="images/event-icon.png" alt="tilføj event" class="open-button" onclick="openForm()">
+        <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h2>Add event</h2>
+
+                <label for="title"><b>Title</b></label>
+                <input type="text" placeholder="Title of event" name="title" required>
+
+                <label for="describe"><b>Description</b></label>
+                <input type="text" placeholder="Describe your event" name="describe" required>
+
+                <button type="submit" class="btn">Add event</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+            </form>
+        </div>
+    </div>
+    
     <a href="bike.html">
         <section class="event top">
             <img src="images/cykel.jpg" alt="Bicycle">

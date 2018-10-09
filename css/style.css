@@ -81,6 +81,75 @@ time {
     display: none;
 }
 
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 1%;
+    right: 3%;
+    opacity: 0.80;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    position: fixed;
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* Add styles to the form container */
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: #30ABB5;
+}
+
+.form-container h2 {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+    color: #F9BB12;
+}
+
+.form-container label {
+    color: #F9BB12
+}
+
+/* Full-width input fields */
+.form-container input[type=text] {
+    width: 100%;
+    border: 1px solid #F9BB12;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: #F9BB12;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+    background-color: #F98D12;
+}
+
+/* event-knap */
+
+.event-knap {
+    position: fixed;
+    z-index: 1;
+}
+
+.event-knap img {
+    width: 15%
+}
+
+
 /* Header */
 
 .header {
@@ -249,21 +318,6 @@ span.psw {
     to {
         transform: scale(1)
     }
-}
-
-/* event-knap */
-
-.event-knap {
-    position: fixed;
-    z-index: 1;
-    right: 1%;
-    width: 15%;
-    bottom: 1%;
-    opacity: 0.80;
-}
-
-.event-knap img {
-    width: 100%
 }
 
 /* Logo */
