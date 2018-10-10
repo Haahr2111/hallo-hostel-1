@@ -480,10 +480,6 @@ a {
         width: 70px    ;
     }
     
-    .event-knap {
-        width: 100%;
-    }
-    
     .form-popup img {
         width: 40px;
     }
@@ -505,7 +501,7 @@ a {
     }
 
     .event-knap {
-        width: 5%;
+        width: 100%;
     }
 
     /* Baggrund */
@@ -560,7 +556,8 @@ a {
     
     .form-popup {
         width: 30%;
-        left: 69%;
+        left: 49%;
+        margin-top: 50px;
     }
     
     .form-popup p {
